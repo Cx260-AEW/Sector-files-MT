@@ -1,0 +1,1 @@
+{ "region" : "default", "structure" : "Bonjour, this is [STATION_NAME] information [ATIS_LETTER]. Recorded at [ATIS_TIME]. Runway in use [DEP] for departure and [ARR] for arrival. [Transition altitude [TA]]. [Transition level [TL]]. [REMARK]. [METAR]. Inform [STATION_NAME] on initial contact you have received information [ATIS_LETTER]." }

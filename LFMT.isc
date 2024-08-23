@@ -1,0 +1,223 @@
+[INFO]
+N042.45.00.000
+E006.13.30.000
+60
+44.1
+2.0
+LFMT\LFMT;
+
+[DEFINE]
+// ID of colour;#RGB
+// Include folder is used as root here
+Yellow_sector;#FF262626;
+Purple_sector;#FFZZZZZZZ;
+Red_sector;#FF161616;
+
+DYN_ACC_BKGND;#FF171717;
+DYN_ACC_CONTOUR;#FF620909;
+
+LFMT_CTR;#FF141414;
+LFMP_CTR;#FF141414;
+LFMU_CTR;#FF141414;
+LFTW_CTR;#FF141414;   
+
+
+LFMT_GRASS;#FF5C994C;
+LFMT_APPRON;#FF555555;
+LFMT_TAXIWAY;#FF333333;
+LFMT_RUNWAY/FATO;#FF404040;
+LFMT_RUNWAY_MARK;#FFD4D4D4;
+LFMT_BULDING;#FF552700;
+LFMT_TAXIWAY_MARK;#FF989800;
+LFMT_TMA;#FF181818;
+
+LFMT_FA;#FF181818;
+LFMT_FB;#FF181818;
+LFMT_FE;#FF181818;
+
+LFMP_GRASS;#FF5C994C;
+LFMP_APPRON;#FF555555;
+LFMP_TAXIWAY;#FF333333;
+LFMP_RUNWAY/FATO;#FF404040;
+LFMP_RUNWAY_MARK;#FFD4D4D4;
+LFMP_BULDING;#FF552700;
+LFMP_TAXIWAY_MARK;#FF989800;
+TAXI_CENTER_GREY;#FF808000;
+TAXI_CENTER_RED;#FFFF5050;
+LFMP_PELICANDROME;#FFFF5050;
+
+LFMU_GRASS;#FF5C994C;
+LFMU_GRASS_APPRON;#FF4A763A;
+LFMU_APPRON;#FF555555;
+LFMU_TAXIWAY;#FF333333;
+LFMU_RUNWAY/FATO;#FF404040;
+LFMU_RUNWAY_MARK;#FFD4D4D4;
+LFMU_BULDING;#FF552700;
+LFMU_TAXIWAY_MARK;#FF989800;
+TAXI_CENTER_RED;#FFFF5050;
+LFMU_PELICANDROME;#FFFF5050;
+
+LFTW_GRASS;#FF5C994C;
+LFTW_APPRON;#FF555555;
+LFTW_TAXIWAY;#FF333333;
+LFTW_RUNWAY/FATO;#FF404040;
+LFTW_RUNWAY_MARK;#FFD4D4D4;
+LFTW_BULDING;#FF552700;
+LFTW_TAXIWAY_MARK;#FF989800;
+TAXI_CENTER_RED;#FFFF5050;
+LFTW_PELICANDROME;#FFFF5050;
+
+//ZONNES
+D192E/S/W;#FF534948;
+D142;#FF534948;
+D121;#FF534948;
+D108_E;#FF534948;
+D143_B;#FF534948;
+
+RTBA;#FF5E5352;
+R190;#FF5E5352;
+R217-3;#FF5E5352;
+R217-4;#FF5E5352;
+R217-5;#FF5E5352;
+R217-6;#FF5E5352;
+R108-E1;#FF5E5352;
+R108-E2;#FF5E5352;
+R108-E3;#FF5E5352;
+R108-C;#FF5E5352;
+R169-A/B;#FF5E5352;
+R89;#FF5E5352;
+R73;#FF5E5352;
+
+[ATIS]
+F;LFMT\Common\france.atis
+
+[AIRPORT]
+// ICAO;ELEVATION;TRANS.ALT.;LAT;LON;airport name;
+F;lfmm.apt
+
+[RUNWAY]
+// ICAO;RW1;RW2;ELEVATION1;ELEVATION2;TRK1;TRK2;LAT;LON;LAT;LON;
+F;lfmm.rwy
+
+[GATES]
+// ID;ICAO;LAT;LON;Type; // Type=L-light,M-medium,H-heavy,S-super,G-generalaviation
+//F;lfmp.gts
+//F;lfmt.gts
+//F;lfmu.gts
+
+[TAXIWAY]
+// twy ID;ICAO;LAT;LON;
+//F;lfmp.txi
+//F;lfmt.txi
+//F;lfmu.txi
+//F;lftw.txi
+
+[FIXES]
+// ID;LAT;LON;ENRorTERM // ENR=0 TERM=1
+F;lfmm.fix
+
+[VOR]
+// ID;FREQ;LAT;LON; // freq xxx.yyy
+F;lfmm.vor
+
+[NDB]
+// ID;freq;LAT;LON; // freq xxx.yyy
+F;lfmm.ndb
+
+[HIGH AIRWAY]
+// L;ID;LAT;LON; // Type L=label T=track
+// T;ID;LAT;LON;
+F;lfmm.hawy
+
+[LOW AIRWAY]
+// L;ID;LAT;LON; // Type L=label T=track
+// T;ID;LAT;LON;
+F;lfmm.lawy
+
+[SID]
+// Label is mandatory before starting the Track section
+// Label : ICAO;RW1(:RW2);ID;LAT;LON;
+// Track : LAT;LON; OR FIXE;FIXE; OR VOR;FIXE OR .....
+//F;lfmp.sid
+//F;lfmt.sid
+//F;lfmu.sid
+//F;lftw.sid
+
+[STAR]
+// Label is mandatory before starting the Track section
+// Label : ICAO;RW1(:RW2);ID;LAT;LON;
+// Track : LAT;LON; OR FIXE;FIXE; OR VOR;FIXE OR .....
+//F;lfmp.str
+//F;lfmt.str
+//F;lfmu.str
+//F;lftw.str
+
+[VFRFIX]
+// ID;altitude or note;LAT;LON;
+//F;lfmp.vfi
+//F;lfmt.vfi
+//F;lfmu.vfi
+//F;lftw.vfi
+
+[ARTCC]
+// L;ID;LAT;LON;fontsize; // Type L=label T=track
+// T;ID;LAT;LON;
+F;lfmm.artcc
+
+[ARTCC HIGH]
+//L;ID;LAT;LON;fontsize; // Type L=label T=track
+//T;ID;LAT;LON;
+F;zone_montpellier\lfmt.hartcc
+
+[ARTCC LOW]
+// L;ID;LAT;LON;fontsize; // Type L=label T=track
+// T;ID;LAT;LON;
+F;zone_montpellier\lfmp.lartcc
+F;zone_montpellier\lfmt.lartcc
+F;zone_montpellier\lfmu.lartcc
+F;zone_montpellier\lftw.lartcc
+
+[MVA]
+// L;ID;LAT;LON;altitude or note;fontsize; // Type L=label T=track
+// T;ID;LAT;LON;
+//F;lfmt.mva
+
+[GEO]
+// LAT1;LON1;LAT2;LON2;color ID ('basic included color' or 'color defined in (DEFINE)' or 'RGB')
+F;..\Common\fra.geo
+//
+F;lfmm.geo
+F;lfmm.prohibit
+F;lfmm.restrict
+F;zone_montpellier\lfmt.siv
+F;zone_montpellier\lfme.gnd
+F;zone_montpellier\lfmp.gnd
+F;zone_montpellier\lfmt.gnd
+F;zone_montpellier\lfmu.gnd
+F;zone_montpellier\lfnb.gnd
+F;zone_montpellier\lfng.gnd
+F;zone_montpellier\lftw.gnd
+F;zone_montpellier\lfnn.gnd
+F;zone_montpellier\lfmz.gnd
+F;zone_montpellier\lfif.gnd
+F;zone_montpellier\lfnl.gnd
+
+[FILLCOLOR]
+//---> Dynamic ACCs
+//--> Internal FIR
+F;zonne.tfl
+F;lfmm.tfl
+F;zone_montpellier\lfmt.tfl
+F;zone_montpellier\lfmp.tfl
+F;zone_montpellier\lfmu.tfl
+F;zone_montpellier\lftw.tfl
+F;zone_montpellier\lfmv.tfl
+
+[ATC]
+F;afis.atc
+F;lfmm.atc
+F;zone_montpellier\lfmp.atc
+F;zone_montpellier\lfmt.atc
+F;zone_montpellier\lfmu.atc
+F;zone_montpellier\lftw.atc
+
