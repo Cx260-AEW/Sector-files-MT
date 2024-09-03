@@ -1,11 +1,21 @@
-LFMT : VERSION 1.8
-- Suppression du poste C1
+AIRAC 2409
+
+TMA : v2.0
+Réfection des terrain de LFNG, LFME, LFNL, LFNB, LFNO, LFCM, LFIF, LFNX, LFNN, LFMZ.
+
+LFMT : VERSION 1.10
+
+- Création RNP 30R
+- Indicateurs validité SID  
+- Suppression SID CONV MARRI/BRUSC/MASAM/MEN/PPG/KELAM 6N/S  
+- Indicateurs validité STAR
+- Ajout STAR GIGNA 7K   
 
 LFMP : VERSION 1.3
-- MAJ des postes
+S/O
 
-LFMU : VERTION 1.0
-- RAS
+LFMU : VERTION 1.1
+S/O
 
-LFTW : VERTION 1.0
-- Publication
+LFTW : VERSION 1.2
+S/O
