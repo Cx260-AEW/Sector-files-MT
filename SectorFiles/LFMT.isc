@@ -9,9 +9,6 @@ LFMT\LFMT;
 [DEFINE]
 // ID of colour;#RGB
 // Include folder is used as root here
-Yellow_sector;#FF262626;
-Purple_sector;#FFZZZZZZZ;
-Red_sector;#FF161616;
 
 DYN_ACC_BKGND;#FF171717;
 DYN_ACC_CONTOUR;#FF620909;
@@ -205,6 +202,7 @@ F;zone_montpellier\lfnl.gnd
 [FILLCOLOR]
 //---> Dynamic ACCs
 //--> Internal FIR
+F;sector.tfl
 F;zonne.tfl
 F;lfmm.tfl
 F;zone_montpellier\lfmt.tfl
